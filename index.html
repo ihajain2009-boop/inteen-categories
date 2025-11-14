@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories - InTeen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Explore Categories</h1>
+            <p>Discover 50+ professional domains and enhance your skills with specialized learning paths</p>
+        </div>
+
+        <div class="search-section">
+            <div class="search-box">
+                <input type="text" placeholder="Search categories..." id="searchInput">
+                <div class="search-icon">🔍</div>
+            </div>
+        </div>
+
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All Categories</button>
+            <button class="filter-btn" data-filter="technology">Technology</button>
+            <button class="filter-btn" data-filter="business">Business</button>
+            <button class="filter-btn" data-filter="marketing">Marketing</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+            <button class="filter-btn" data-filter="research">Research</button>
+            <button class="filter-btn" data-filter="commerce">Commerce</button>
+        </div>
+
+        <div class="categories-grid" id="categoriesGrid">
+            <!-- Categories populated by JavaScript -->
+        </div>
+
+        <div class="stats-bar">
+            <div class="stat-item">
+                <span class="stat-number" id="totalCategories">50+</span>
+                <div class="stat-label">Categories</div>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">100+</span>
+                <div class="stat-label">Learning Paths</div>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">24/7</span>
+                <div class="stat-label">Support</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
